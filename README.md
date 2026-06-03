@@ -8,7 +8,7 @@ This project applies network analysis methods to global arms trade data to ident
 
 ## Methods
 - Network construction from SIPRI Arms Transfer Database
-- Community detection (Louvain / modularity-based)
+- Community detection (Louvain / Walktrap / Multilayer Leiden analysis)
 - Visualisation of trade network structure
 
 ## Stack
