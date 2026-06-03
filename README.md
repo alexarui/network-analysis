@@ -3,6 +3,7 @@
 This project applies network analysis methods to global arms trade data to identify communities of countries using graph-based community detection algorithms.
 
 **Authors:** Polina Mishulina, Alexa Rui
+
 **Affiliation:** LMU Munich
 
 ## Methods
