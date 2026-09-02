@@ -1,15 +1,15 @@
-# Arms Trade Network: LAGO Application and Proposed Next Step
+# Meeting 02.09.2026
 
 SIPRI Arms Transfers Database, 1950–2024 · directed weighted order-year network:
 15,264 annual dyad edges, 195 countries.
 
 ## 1. LAGO
 
-**Resolved:** the window problem. Years form the time axis directly — no window
+**Resolved:** the window problem. Years form the time axis directly, no window
 width to choose, no post-hoc Jaccard stitching. Community identity follows from
 the optimisation rather than being assigned afterwards.
 
-**Not resolved:** the partition is unstable.
+**Not resolved:** the core-periphery structure.
 
 | Diagnostic | Result |
 |---|---|
@@ -18,11 +18,9 @@ the optimisation rather than being assigned afterwards.
 | Three restarts, same settings | 19 / 35 / 20 modules, mean ARI **0.276** |
 | Leading supplier's share of internal TIV | 93–98% (USSR 1964, 1984; Russia 2024) |
 
-The instability is a property of the data, not the settings. Modularity —
-including L-Modularity — tests for **assortative** structure, groups dense
+The instability is a property of the data, not the settings. Modularity, including L-Modularity, tests for **assortative** structure, groups dense
 internally. This network is **disassortative**: members of a detected community
-trade with the centre, not with each other. LAGO recovers supplier clienteles,
-not blocs.
+trade with the centre, not with each other. LAGO recovers supplier clienteles, not blocs.
 
 ## 2. Exploratory analysis: supplier structure
 
@@ -62,7 +60,7 @@ supplier/recipient distinction that matters most here.
 > [doi](https://doi.org/10.1098/rspa.2019.0783) ·
 > [arXiv:1912.00984](https://arxiv.org/abs/1912.00984)
 
-Direction-dependent core and periphery sets — separate cores on the selling and
+Direction-dependent core and periphery sets: separate cores on the selling and
 buying side. One of their three applications is a trade network. No released
 implementation; the spectral methods would have to be written from the paper.
 
